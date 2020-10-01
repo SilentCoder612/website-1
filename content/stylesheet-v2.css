@@ -31,29 +31,29 @@ a, a:focus, a:hover {
     Navigation bar
 */
 .navbar {
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.5);
-	box-shadow: 0 0 15px rgba(0,0,0,.5);
-	color: #333;
-	/*background-color: #333;*/
-	border: none;
-	border-color: #555;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.5);
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    color: #f5f5f5;
+    background-color: #333;
+    border: none;
+    border-color: #555
 }
 
-.navbar .navbar-brand,
-.navbar-default .navbar-nav>li>a,
-.dropdown-menu>li>a,
-.dropdown-menu>li>a {
-	color: #333;
+.navbar .navbar-brand {
+    font-size: 24px;
+    position: relative;
+    bottom: .39em;
+    color: white;
 }
 
 /* Dropdown menu items */
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-	color: #333;
+	color: #cc8585;
 	text-shadow: 0 .1em .3em rgba(0,0,0,.25);
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-	color: #333;
+	color: #f5f5f5;
 }
 
 .navbar .navbar-brand:hover,
@@ -61,7 +61,7 @@ a, a:focus, a:hover {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
 	text-shadow: 0 .1em .3em rgba(0,0,0,.25);
-	color: #333;
+	color: #cc8585;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -174,20 +174,20 @@ a, a:focus, a:hover {
 /*
     Footer
 */
-.footer, .footer a{
-	text-align: center;
-	font-family: 'Audiowide', cursive;
-	font-size: 10px;
-	color: #444;
-	padding-bottom: 1em;
+.footer, .footer a {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 5em;
 }
 .footer {
-	text-shadow: none;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	/* Set the fixed height of the footer here */
-	height: 60px;
+    text-shadow: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    height: 60px;
 }
 
 /*
